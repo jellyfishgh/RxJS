@@ -212,7 +212,7 @@
 
             // change game state and dispose of our
             // game loop observables
-            this.gameState = GameState.Stopped;
+            this.gameState = GameState.stopped;
             this.gameloop.dispose();
             this.generator.dispose();
             this.keyboard.dispose();
