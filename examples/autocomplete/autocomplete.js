@@ -39,8 +39,7 @@
       function (error) {
         $results
           .empty()
-          .append($('<li>'))
-          .text('Error:' + error);
+          .append($('<li>').text('Error:' + error));
       });
   }
 
